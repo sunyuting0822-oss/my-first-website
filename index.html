@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Wave Music Festival</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 固定导航栏 Sticky Nav -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <h2 class="logo">Summer Wave</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+            <!-- 明暗切换开关 -->
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch"></label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SUMMER WAVE 2026 MUSIC FESTIVAL</h1>
+            <p>3 days of live bands, beach parties & unlimited music under the sun</p>
+            <a href="#register" class="cta-btn">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Features Grid 3列亮点 -->
+    <section id="features" class="features">
+        <h2>Festival Highlights</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon">🎤</div>
+                <h3>Top Live Artists</h3>
+                <p>Over 20 international and local bands performing across 3 main stages all weekend long.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🏖️</div>
+                <h3>Beach Venue</h3>
+                <p>Seaside location with swimming zones, food stalls and sunset viewing areas for all guests.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎁</div>
+                <h3>Exclusive Merch</h3>
+                <p>Limited festival hoodies, bracelets and posters only available for registered attendees.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Festival Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="image Stage.jpg" alt="Stage"></div>
+            <div class="gallery-item"><img src="image Beach.jpg" alt="Beach"></div>
+            <div class="gallery-item"><img src="image Crowd.jpg" alt="Crowd"></div>
+            <div class="gallery-item"><img src="image food.jpg" alt="Food"></div>
+            <div class="gallery-item"><img src="image Merch.jpg" alt="Merch"></div>
+            <div class="gallery-item"><img src="image Sunset.jpg" alt="Sunset"></div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register" class="register">
+        <h2>Sign Up for Early Bird Tickets</h2>
+        <form id="signupForm" class="form-box">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+                <span class="error-text" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="example@email.com">
+                <span class="error-text" id="emailError"></span>
+            </div>
+            <button type="submit" class="submit-btn">Submit Registration</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social">
+                <span>FB | IG | TikTok | X</span>
+            </div>
+            <p>Contact: info@summerwavefest.com | +60 12 3456 7890</p>
+            <p>&copy; 2026 Summer Wave Music Festival. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
